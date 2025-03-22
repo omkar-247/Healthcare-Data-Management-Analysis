@@ -12,14 +12,12 @@ This project focuses on analyzing healthcare data to derive insights into patien
 
 ## Files in the Repository
 - **Data/**
-  - `Healthcare_Data_Management.xlsx`: Patient data in Excel format.
   - `Healthcare_Data_Management.csv`: Patient data in CSV format.
 - **SQL/**
   - `Hospital_Data_Management.sql`: SQL queries for data analysis.
 - **Dashboard/**
   - `healthcare_data_management_dashboard.pdf`: Power BI dashboard for hospital performance and treatment trends.
-- **Screenshots/**
-  - `Screenshot_2025-03-22_212603.png`: Summary of project goals.
+
     
 ## Project Workflow
 1. **Data Collection:** Collected patient data from multiple sources (Excel, CSV).
@@ -133,7 +131,7 @@ The **Power BI dashboard** was created to visualize key insights from the health
 3. Explore the visualizations to gain insights into patient demographics, disease prevalence, and treatment outcomes.
 
 ### Screenshots
-![Power BI Dashboard](Screenshots/dashboard_screenshot.png)
+![Power BI Dashboard](https://github.com/omkar-247/Healthcare-Data-Management-Analysis/blob/main/Screenshot%202025-03-22%20212603.png)
 
 ### **SQL Queries **
 
@@ -198,8 +196,7 @@ FROM Healthcare_Data;
 ## Links
 Here are some useful links to explore this project further:
 
-- **GitHub Repository:** [Healthcare-Data-Management-Analysis](https://github.com/your-username/Healthcare-Data-Management-Analysis)
-- **Power BI Dashboard:** [View Dashboard](Dashboard/healthcare_data_management_dashboard.pbix)
-- **SQL Queries:** [Explore SQL Code](SQL/Hospital_Data_Management.sql)
-- **Raw Data:** [Access Data Files](Data/)
-- **Screenshots:** [View Screenshots](Screenshots/)
+- **GitHub Repository:** [Healthcare-Data-Management-Analysis](https://github.com/omkar-247/Healthcare-Data-Management-Analysis)
+- **Power BI Dashboard:** [View Dashboard](https://github.com/omkar-247/Healthcare-Data-Management-Analysis/blob/main/HealthCare%20Data%20Management.pbix)
+- **SQL Queries:** [Explore SQL Code](https://github.com/omkar-247/Healthcare-Data-Management-Analysis/blob/main/Hospital%20Data%20Management.sql)
+- **Raw Data:** [Access Data Files](https://github.com/omkar-247/Healthcare-Data-Management-Analysis/blob/main/Healthcare_Data_Management.csv)
