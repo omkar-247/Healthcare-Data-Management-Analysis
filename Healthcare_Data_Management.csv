@@ -1,0 +1,501 @@
+Patient_ID,First_Name,Last_Name,Age,Gender,Diagnosis,Treatment,Hospital,Doctor_ID,Hospital_Performance_Rating
+P1000,Daniel,Jones,74,Female,Cancer,Therapy,Central Health Center,D334,1.9
+P1001,Michael,Brown,46,Male,Hypertension,Medication,Central Health Center,D415,1.1
+P1002,Emma,Johnson,48,Female,Cancer,Monitoring,City Clinic,D302,3.4
+P1003,Sarah,Smith,59,Female,Arthritis,Medication,Northside Medical,D941,1.2
+P1004,Daniel,Johnson,47,Male,Depression,Vaccination,City Clinic,D396,3.4
+P1005,Sarah,Davis,58,Female,Cancer,Surgery,City Clinic,D231,1.7
+P1006,Emily,Brown,73,Male,Hypertension,Medication,City Clinic,D382,4
+P1007,John,Johnson,54,Male,Asthma,Vaccination,General Hospital,D460,4.5
+P1008,Daniel,Brown,66,Female,Hypertension,Medication,Northside Medical,D213,3.8
+P1009,Michael,Johnson,31,Female,Asthma,Monitoring,Central Health Center,D162,2.6
+P1010,David,Rodriguez,47,Female,Heart Disease,Vaccination,Central Health Center,D116,2.6
+P1011,Emma,Davis,43,Female,Arthritis,Rehabilitation,Central Health Center,D424,3.7
+P1012,David,Johnson,71,Female,Asthma,Surgery,City Clinic,D790,1.8
+P1013,Emma,Garcia,84,Male,Asthma,Rehabilitation,City Clinic,D711,1.6
+P1014,Emma,Jones,21,Female,COVID-19,Rehabilitation,Central Health Center,D561,3
+P1015,Sarah,Johnson,45,Male,Depression,Surgery,St. Mary's Hospital,D163,3.5
+P1016,John,Williams,81,Female,Cancer,Monitoring,Northside Medical,D784,3.8
+P1017,Sophia,Brown,82,Male,Diabetes,Surgery,St. Mary's Hospital,D726,3.4
+P1018,Emily,Jones,22,Female,Hypertension,Monitoring,City Clinic,D238,3.3
+P1019,Daniel,Rodriguez,47,Female,Diabetes,Medication,Central Health Center,D185,1.3
+P1020,Michael,Williams,68,Female,Diabetes,Medication,Northside Medical,D469,3.6
+P1021,John,Williams,77,Female,Heart Disease,Monitoring,City Clinic,D147,3.6
+P1022,Sophia,Brown,35,Male,Arthritis,Rehabilitation,St. Mary's Hospital,D709,3.8
+P1023,John,Brown,79,Male,Cancer,Medication,Central Health Center,D814,4
+P1024,Emma,Smith,71,Male,Heart Disease,Surgery,St. Mary's Hospital,D697,1.6
+P1025,Emma,Rodriguez,83,Male,Hypertension,Surgery,City Clinic,D507,4
+P1026,Sarah,Smith,77,Female,Asthma,Medication,Northside Medical,D100,1.4
+P1027,Sarah,Davis,26,Female,Heart Disease,Therapy,General Hospital,D426,4.6
+P1028,David,Johnson,29,Female,Asthma,Rehabilitation,City Clinic,D745,3.4
+P1029,John,Williams,51,Female,Diabetes,Vaccination,Northside Medical,D883,1.3
+P1030,Sarah,Brown,24,Male,COVID-19,Surgery,City Clinic,D508,1.1
+P1031,Emily,Brown,44,Female,Diabetes,Rehabilitation,Northside Medical,D414,3.2
+P1032,Sophia,Garcia,63,Female,Diabetes,Therapy,General Hospital,D393,4.1
+P1033,Sophia,Williams,56,Male,Cancer,Surgery,Northside Medical,D728,1.9
+P1034,Daniel,Johnson,24,Male,Heart Disease,Medication,Northside Medical,D745,2.6
+P1035,Daniel,Garcia,41,Female,Heart Disease,Medication,St. Mary's Hospital,D445,4.5
+P1036,Sophia,Smith,20,Female,Hypertension,Rehabilitation,Central Health Center,D839,4.7
+P1037,Emily,Garcia,47,Female,COVID-19,Therapy,St. Mary's Hospital,D591,4.2
+P1038,Emily,Rodriguez,32,Female,Diabetes,Medication,City Clinic,D164,3.4
+P1039,Emily,Jones,51,Female,Cancer,Therapy,Northside Medical,D639,4
+P1040,Emma,Johnson,68,Male,Hypertension,Medication,Central Health Center,D478,4.2
+P1041,Emily,Garcia,21,Male,Asthma,Therapy,Central Health Center,D175,1.8
+P1042,Daniel,Davis,76,Male,COVID-19,Medication,Central Health Center,D179,1
+P1043,Emma,Brown,78,Female,Diabetes,Rehabilitation,City Clinic,D879,4.1
+P1044,Emily,Smith,33,Male,Arthritis,Vaccination,General Hospital,D294,2.4
+P1045,John,Brown,50,Male,Asthma,Medication,Central Health Center,D884,3.4
+P1046,Daniel,Johnson,52,Female,Asthma,Vaccination,General Hospital,D522,1.4
+P1047,Sophia,Garcia,63,Female,Depression,Medication,Northside Medical,D427,4.9
+P1048,Emma,Johnson,77,Female,Asthma,Therapy,St. Mary's Hospital,D548,4.4
+P1049,Michael,Rodriguez,62,Male,COVID-19,Surgery,St. Mary's Hospital,D880,2.8
+P1050,John,Garcia,29,Male,Cancer,Rehabilitation,St. Mary's Hospital,D378,4.3
+P1051,Emily,Garcia,37,Male,Heart Disease,Vaccination,Central Health Center,D172,2.5
+P1052,John,Davis,72,Female,Hypertension,Vaccination,General Hospital,D883,1.2
+P1053,Sarah,Brown,20,Male,Hypertension,Therapy,General Hospital,D331,3.9
+P1054,David,Rodriguez,84,Female,Heart Disease,Rehabilitation,General Hospital,D312,4.2
+P1055,Emma,Garcia,47,Female,Arthritis,Vaccination,City Clinic,D241,3.8
+P1056,Daniel,Jones,49,Female,Asthma,Rehabilitation,Central Health Center,D992,3.5
+P1057,Sophia,Jones,76,Male,Depression,Rehabilitation,St. Mary's Hospital,D238,3.4
+P1058,Emma,Rodriguez,37,Female,COVID-19,Vaccination,Central Health Center,D184,1.6
+P1059,Emma,Jones,81,Male,Hypertension,Rehabilitation,General Hospital,D662,2.6
+P1060,Daniel,Jones,42,Female,Depression,Surgery,Central Health Center,D449,1
+P1061,Sophia,Davis,32,Female,Diabetes,Therapy,General Hospital,D254,1.7
+P1062,Emma,Smith,56,Male,Cancer,Monitoring,St. Mary's Hospital,D194,3.7
+P1063,Sarah,Williams,34,Male,Asthma,Vaccination,City Clinic,D481,2.8
+P1064,David,Johnson,23,Male,Hypertension,Therapy,Northside Medical,D725,1.6
+P1065,Emily,Davis,42,Male,Diabetes,Therapy,St. Mary's Hospital,D187,3.4
+P1066,David,Williams,83,Female,Diabetes,Therapy,Northside Medical,D309,1.9
+P1067,Emily,Rodriguez,81,Male,Diabetes,Surgery,City Clinic,D996,2.8
+P1068,Emma,Jones,59,Male,Hypertension,Therapy,General Hospital,D374,1.8
+P1069,John,Jones,68,Male,Heart Disease,Surgery,Northside Medical,D810,2.7
+P1070,David,Smith,75,Male,Arthritis,Medication,City Clinic,D383,4.4
+P1071,David,Smith,18,Male,Depression,Vaccination,General Hospital,D164,3.5
+P1072,Michael,Brown,52,Male,COVID-19,Medication,St. Mary's Hospital,D167,1
+P1073,John,Brown,23,Male,Heart Disease,Rehabilitation,Northside Medical,D424,3.2
+P1074,Michael,Davis,39,Female,Cancer,Medication,City Clinic,D917,3.9
+P1075,Michael,Davis,40,Male,Cancer,Vaccination,General Hospital,D148,2.6
+P1076,Sarah,Jones,80,Female,Diabetes,Therapy,Central Health Center,D981,3.3
+P1077,John,Garcia,65,Female,Diabetes,Monitoring,Northside Medical,D767,3.3
+P1078,Sarah,Garcia,35,Male,Heart Disease,Surgery,Central Health Center,D434,4
+P1079,Emma,Brown,22,Female,Asthma,Therapy,City Clinic,D202,3.6
+P1080,Michael,Davis,50,Female,Arthritis,Monitoring,General Hospital,D959,2.6
+P1081,Michael,Garcia,70,Female,Diabetes,Monitoring,Northside Medical,D387,1.4
+P1082,Emma,Smith,79,Male,Diabetes,Monitoring,St. Mary's Hospital,D985,1.9
+P1083,John,Jones,73,Female,Asthma,Vaccination,Central Health Center,D266,3.9
+P1084,David,Johnson,46,Female,Arthritis,Rehabilitation,General Hospital,D613,3.3
+P1085,David,Williams,18,Female,COVID-19,Therapy,General Hospital,D773,3.5
+P1086,Sophia,Brown,50,Male,Depression,Therapy,City Clinic,D465,1.7
+P1087,Emily,Brown,66,Male,Diabetes,Surgery,General Hospital,D898,1.9
+P1088,John,Garcia,84,Female,Heart Disease,Therapy,General Hospital,D906,2.6
+P1089,Sophia,Garcia,31,Female,Arthritis,Vaccination,City Clinic,D994,3.6
+P1090,Emily,Jones,65,Male,Heart Disease,Rehabilitation,General Hospital,D846,4.1
+P1091,Daniel,Rodriguez,24,Male,Depression,Medication,General Hospital,D139,2
+P1092,Michael,Garcia,31,Male,Hypertension,Rehabilitation,General Hospital,D440,3.5
+P1093,Sarah,Brown,72,Male,Asthma,Vaccination,Central Health Center,D109,3.6
+P1094,Sarah,Garcia,55,Female,COVID-19,Rehabilitation,Central Health Center,D912,3.4
+P1095,David,Smith,55,Male,Diabetes,Vaccination,Central Health Center,D258,3.2
+P1096,Sarah,Davis,62,Male,Hypertension,Therapy,St. Mary's Hospital,D122,4.6
+P1097,Emily,Jones,81,Male,Cancer,Vaccination,St. Mary's Hospital,D228,2.3
+P1098,Emily,Williams,77,Male,Cancer,Therapy,St. Mary's Hospital,D506,2.4
+P1099,John,Garcia,47,Male,Depression,Rehabilitation,Northside Medical,D685,4.2
+P1100,Emma,Johnson,75,Female,Cancer,Monitoring,General Hospital,D608,4.5
+P1101,Sophia,Garcia,58,Female,Hypertension,Vaccination,General Hospital,D371,2.6
+P1102,John,Rodriguez,56,Male,Hypertension,Surgery,General Hospital,D921,4.1
+P1103,Emily,Johnson,20,Male,Hypertension,Therapy,Northside Medical,D394,1.7
+P1104,David,Davis,35,Female,Heart Disease,Surgery,Northside Medical,D101,1.6
+P1105,Sophia,Davis,74,Female,Arthritis,Surgery,General Hospital,D642,1.9
+P1106,Daniel,Davis,27,Female,Hypertension,Vaccination,Northside Medical,D436,3.6
+P1107,Sarah,Rodriguez,49,Male,Asthma,Medication,Northside Medical,D962,2.3
+P1108,Emily,Smith,56,Male,COVID-19,Therapy,Northside Medical,D981,3.8
+P1109,John,Johnson,78,Female,Arthritis,Monitoring,City Clinic,D775,3.3
+P1110,Emma,Garcia,82,Male,Arthritis,Vaccination,St. Mary's Hospital,D543,3
+P1111,Emily,Smith,72,Male,Depression,Monitoring,City Clinic,D421,4.2
+P1112,David,Rodriguez,43,Male,Hypertension,Surgery,St. Mary's Hospital,D859,4.6
+P1113,Sarah,Brown,52,Female,Depression,Surgery,Northside Medical,D833,3.4
+P1114,Daniel,Johnson,27,Female,Arthritis,Therapy,Northside Medical,D611,2.9
+P1115,Sophia,Garcia,77,Male,Diabetes,Vaccination,City Clinic,D851,4.4
+P1116,Sophia,Jones,26,Male,Depression,Surgery,Northside Medical,D574,2.6
+P1117,Emma,Brown,71,Male,Arthritis,Vaccination,St. Mary's Hospital,D608,3.6
+P1118,Sophia,Smith,21,Female,Diabetes,Therapy,General Hospital,D534,2.9
+P1119,Michael,Williams,68,Male,Asthma,Vaccination,Northside Medical,D357,1.2
+P1120,Sophia,Rodriguez,21,Male,Depression,Rehabilitation,General Hospital,D455,2.4
+P1121,Daniel,Smith,20,Male,Heart Disease,Monitoring,Central Health Center,D734,4.4
+P1122,John,Davis,75,Female,Heart Disease,Therapy,St. Mary's Hospital,D693,2.4
+P1123,David,Jones,69,Female,COVID-19,Vaccination,St. Mary's Hospital,D435,3.2
+P1124,Michael,Brown,21,Male,Diabetes,Therapy,Northside Medical,D979,1.8
+P1125,John,Rodriguez,59,Female,Diabetes,Surgery,St. Mary's Hospital,D618,1.7
+P1126,Emma,Williams,70,Female,Diabetes,Surgery,General Hospital,D679,1
+P1127,Michael,Williams,68,Female,COVID-19,Therapy,Central Health Center,D817,2.9
+P1128,John,Brown,77,Female,Arthritis,Medication,City Clinic,D622,4.9
+P1129,Emma,Garcia,34,Male,Hypertension,Vaccination,General Hospital,D667,1.4
+P1130,Emily,Smith,55,Male,COVID-19,Surgery,General Hospital,D582,3.4
+P1131,David,Williams,62,Female,Arthritis,Medication,St. Mary's Hospital,D797,3.8
+P1132,Emily,Williams,22,Male,Diabetes,Monitoring,St. Mary's Hospital,D938,1.3
+P1133,Emily,Brown,61,Female,Arthritis,Surgery,City Clinic,D670,3.4
+P1134,Emily,Brown,68,Female,Cancer,Surgery,Central Health Center,D619,2.8
+P1135,Emma,Williams,80,Male,Cancer,Rehabilitation,General Hospital,D284,1.1
+P1136,John,Smith,19,Male,Diabetes,Therapy,General Hospital,D322,3.6
+P1137,David,Garcia,27,Male,Diabetes,Rehabilitation,Central Health Center,D843,1.6
+P1138,John,Davis,25,Male,COVID-19,Therapy,Central Health Center,D111,3.1
+P1139,John,Smith,56,Male,COVID-19,Medication,City Clinic,D187,1.4
+P1140,John,Garcia,43,Female,Asthma,Monitoring,General Hospital,D296,4.3
+P1141,Emma,Williams,53,Female,Asthma,Rehabilitation,General Hospital,D981,2.8
+P1142,John,Brown,57,Female,Heart Disease,Therapy,St. Mary's Hospital,D619,1.6
+P1143,Michael,Johnson,80,Female,Heart Disease,Surgery,General Hospital,D398,4.5
+P1144,Daniel,Brown,62,Female,Asthma,Vaccination,City Clinic,D604,1.3
+P1145,Michael,Rodriguez,44,Female,Diabetes,Surgery,St. Mary's Hospital,D276,2.6
+P1146,Emily,Smith,78,Male,Heart Disease,Rehabilitation,Northside Medical,D682,4.2
+P1147,Michael,Jones,81,Male,Diabetes,Vaccination,Northside Medical,D806,2.8
+P1148,Sarah,Davis,83,Male,Hypertension,Therapy,St. Mary's Hospital,D318,4.2
+P1149,Emily,Jones,68,Male,COVID-19,Vaccination,General Hospital,D160,2.4
+P1150,Michael,Smith,54,Female,Heart Disease,Vaccination,General Hospital,D812,1.8
+P1151,Emily,Garcia,40,Female,Cancer,Monitoring,Northside Medical,D725,3.2
+P1152,Emma,Garcia,76,Female,Arthritis,Vaccination,St. Mary's Hospital,D303,1.1
+P1153,David,Rodriguez,24,Male,Depression,Rehabilitation,St. Mary's Hospital,D998,2.8
+P1154,Emma,Williams,69,Male,Asthma,Monitoring,City Clinic,D222,3.2
+P1155,Sarah,Williams,46,Male,Hypertension,Surgery,Northside Medical,D532,2.9
+P1156,Daniel,Rodriguez,51,Male,Depression,Rehabilitation,City Clinic,D438,2.2
+P1157,Emma,Smith,76,Male,Diabetes,Therapy,Central Health Center,D243,2.5
+P1158,Emily,Williams,62,Female,Heart Disease,Vaccination,St. Mary's Hospital,D506,2.8
+P1159,David,Davis,83,Female,Arthritis,Therapy,Northside Medical,D248,2
+P1160,John,Smith,64,Female,Heart Disease,Medication,St. Mary's Hospital,D842,3.2
+P1161,Emma,Williams,52,Female,Cancer,Monitoring,Northside Medical,D213,3.1
+P1162,John,Jones,52,Female,Cancer,Rehabilitation,General Hospital,D437,3.2
+P1163,Emma,Brown,45,Female,Cancer,Therapy,City Clinic,D785,3.7
+P1164,Sophia,Williams,62,Male,Arthritis,Therapy,Central Health Center,D699,2.7
+P1165,Emma,Jones,40,Female,Hypertension,Monitoring,Central Health Center,D560,4.6
+P1166,David,Smith,61,Female,Asthma,Surgery,St. Mary's Hospital,D311,4.6
+P1167,John,Rodriguez,32,Female,Arthritis,Therapy,St. Mary's Hospital,D628,1.4
+P1168,Emily,Jones,27,Male,COVID-19,Vaccination,Northside Medical,D489,1.3
+P1169,Emily,Jones,45,Female,Depression,Rehabilitation,City Clinic,D427,1.2
+P1170,Sophia,Rodriguez,68,Male,Asthma,Therapy,City Clinic,D860,2.9
+P1171,David,Smith,60,Female,Cancer,Vaccination,St. Mary's Hospital,D313,2.2
+P1172,John,Garcia,71,Female,Heart Disease,Medication,General Hospital,D146,3.9
+P1173,David,Jones,83,Male,Heart Disease,Therapy,Central Health Center,D788,4.7
+P1174,Emily,Brown,71,Female,Depression,Monitoring,St. Mary's Hospital,D288,2.7
+P1175,Sarah,Davis,63,Male,Depression,Therapy,General Hospital,D135,1.7
+P1176,John,Garcia,50,Female,Arthritis,Monitoring,St. Mary's Hospital,D743,1.9
+P1177,Daniel,Garcia,71,Female,COVID-19,Medication,St. Mary's Hospital,D211,2
+P1178,Sophia,Rodriguez,57,Male,Depression,Rehabilitation,General Hospital,D328,1.8
+P1179,Emily,Smith,69,Female,Heart Disease,Medication,Northside Medical,D939,2.3
+P1180,John,Garcia,57,Male,Diabetes,Surgery,City Clinic,D940,3.3
+P1181,John,Garcia,75,Male,Arthritis,Surgery,General Hospital,D296,3.9
+P1182,Emily,Rodriguez,44,Female,Heart Disease,Therapy,Northside Medical,D591,2
+P1183,Sarah,Garcia,37,Female,Diabetes,Medication,Central Health Center,D425,3.3
+P1184,Emily,Williams,41,Female,Arthritis,Therapy,Northside Medical,D172,4.9
+P1185,Daniel,Smith,41,Male,COVID-19,Rehabilitation,City Clinic,D175,3.4
+P1186,Daniel,Williams,56,Male,COVID-19,Surgery,General Hospital,D154,2.6
+P1187,Michael,Garcia,50,Female,Depression,Monitoring,St. Mary's Hospital,D519,3.1
+P1188,Sophia,Smith,41,Male,Hypertension,Medication,St. Mary's Hospital,D654,3.3
+P1189,Sophia,Brown,70,Female,Diabetes,Monitoring,City Clinic,D423,4.9
+P1190,Emily,Brown,74,Male,Asthma,Vaccination,Central Health Center,D873,1.4
+P1191,David,Jones,22,Male,COVID-19,Therapy,City Clinic,D872,1.4
+P1192,Emma,Davis,20,Male,Asthma,Rehabilitation,General Hospital,D213,2.9
+P1193,Sophia,Brown,19,Male,Depression,Medication,General Hospital,D471,3
+P1194,John,Smith,34,Male,Asthma,Vaccination,Central Health Center,D436,3.6
+P1195,Emma,Davis,27,Female,Hypertension,Monitoring,General Hospital,D366,4.4
+P1196,John,Rodriguez,74,Female,COVID-19,Vaccination,Northside Medical,D571,2.4
+P1197,Emma,Brown,36,Male,Cancer,Therapy,City Clinic,D156,1.2
+P1198,Michael,Davis,77,Male,Asthma,Therapy,City Clinic,D132,3.3
+P1199,Emma,Brown,58,Female,Depression,Vaccination,St. Mary's Hospital,D464,4.3
+P1200,Daniel,Davis,74,Male,COVID-19,Monitoring,General Hospital,D354,4.7
+P1201,Emily,Rodriguez,38,Female,COVID-19,Rehabilitation,General Hospital,D734,1.1
+P1202,David,Garcia,66,Male,Heart Disease,Surgery,St. Mary's Hospital,D367,4.3
+P1203,David,Rodriguez,47,Male,Hypertension,Monitoring,Northside Medical,D367,1.2
+P1204,Michael,Johnson,49,Male,Diabetes,Rehabilitation,St. Mary's Hospital,D443,3.9
+P1205,Daniel,Brown,23,Female,Hypertension,Monitoring,St. Mary's Hospital,D441,2.4
+P1206,Sarah,Davis,25,Male,Hypertension,Surgery,St. Mary's Hospital,D466,2.2
+P1207,Sophia,Garcia,67,Male,Arthritis,Rehabilitation,City Clinic,D884,4.4
+P1208,Daniel,Johnson,79,Male,Depression,Rehabilitation,General Hospital,D144,3.4
+P1209,Sophia,Garcia,22,Female,COVID-19,Rehabilitation,Central Health Center,D741,3.7
+P1210,John,Davis,82,Male,Heart Disease,Therapy,Central Health Center,D217,2.7
+P1211,Daniel,Davis,80,Female,Cancer,Medication,St. Mary's Hospital,D172,2.3
+P1212,Sarah,Williams,52,Male,Diabetes,Rehabilitation,General Hospital,D651,1.5
+P1213,Daniel,Jones,28,Male,Diabetes,Rehabilitation,Northside Medical,D353,4.4
+P1214,Emma,Garcia,45,Male,Cancer,Vaccination,St. Mary's Hospital,D706,1.3
+P1215,Emily,Davis,48,Female,Cancer,Vaccination,Northside Medical,D215,3.4
+P1216,Sophia,Davis,81,Female,Hypertension,Monitoring,Central Health Center,D458,4.5
+P1217,David,Smith,25,Male,Asthma,Medication,City Clinic,D458,2.8
+P1218,Sophia,Rodriguez,46,Female,Arthritis,Monitoring,Northside Medical,D395,2.9
+P1219,Sarah,Smith,42,Male,Asthma,Medication,St. Mary's Hospital,D934,1.7
+P1220,Sophia,Jones,24,Female,Depression,Therapy,Northside Medical,D311,1.3
+P1221,Emma,Davis,31,Male,Diabetes,Rehabilitation,Northside Medical,D321,3
+P1222,Michael,Rodriguez,81,Female,Heart Disease,Therapy,St. Mary's Hospital,D274,4.5
+P1223,Sophia,Brown,23,Female,Arthritis,Monitoring,Northside Medical,D255,3.1
+P1224,David,Davis,77,Male,Asthma,Rehabilitation,St. Mary's Hospital,D148,4.9
+P1225,Daniel,Williams,79,Male,Heart Disease,Therapy,Northside Medical,D859,2.9
+P1226,Sarah,Davis,27,Female,Heart Disease,Medication,City Clinic,D367,2.2
+P1227,John,Johnson,37,Female,Cancer,Therapy,General Hospital,D311,2.4
+P1228,Sophia,Rodriguez,28,Male,Heart Disease,Monitoring,City Clinic,D136,4.6
+P1229,Daniel,Smith,49,Female,Diabetes,Medication,St. Mary's Hospital,D774,1.6
+P1230,David,Davis,28,Female,Depression,Therapy,City Clinic,D357,1.5
+P1231,Sophia,Smith,50,Female,Depression,Surgery,St. Mary's Hospital,D623,3.5
+P1232,David,Rodriguez,77,Male,Asthma,Rehabilitation,General Hospital,D359,4.7
+P1233,Emily,Brown,77,Male,Diabetes,Vaccination,City Clinic,D605,4.5
+P1234,David,Rodriguez,22,Male,Cancer,Monitoring,Northside Medical,D134,1.7
+P1235,David,Rodriguez,74,Male,COVID-19,Vaccination,General Hospital,D134,4.8
+P1236,Daniel,Rodriguez,54,Male,Heart Disease,Rehabilitation,City Clinic,D127,1.1
+P1237,Sarah,Williams,67,Male,Heart Disease,Monitoring,City Clinic,D183,4.1
+P1238,Sophia,Jones,38,Male,Heart Disease,Medication,General Hospital,D436,2.4
+P1239,Emma,Davis,80,Female,Asthma,Vaccination,Northside Medical,D496,3.5
+P1240,Sophia,Rodriguez,75,Male,Hypertension,Monitoring,City Clinic,D784,4.6
+P1241,Michael,Davis,37,Male,Asthma,Rehabilitation,General Hospital,D146,1.6
+P1242,John,Garcia,83,Female,Asthma,Vaccination,St. Mary's Hospital,D520,2
+P1243,Emma,Williams,72,Male,Cancer,Therapy,Northside Medical,D206,1.6
+P1244,David,Rodriguez,43,Female,Depression,Vaccination,St. Mary's Hospital,D209,3.1
+P1245,David,Rodriguez,70,Female,COVID-19,Therapy,St. Mary's Hospital,D446,1.9
+P1246,Emily,Williams,31,Male,Diabetes,Surgery,City Clinic,D388,1.9
+P1247,Sophia,Jones,84,Male,Heart Disease,Surgery,St. Mary's Hospital,D697,2.4
+P1248,David,Johnson,40,Female,Diabetes,Surgery,Northside Medical,D505,4.8
+P1249,Sophia,Garcia,69,Male,Depression,Medication,General Hospital,D153,4.9
+P1250,Emma,Rodriguez,21,Female,COVID-19,Surgery,General Hospital,D997,4.6
+P1251,Sophia,Garcia,85,Male,Hypertension,Therapy,Central Health Center,D803,2
+P1252,Sophia,Garcia,37,Male,Hypertension,Therapy,Central Health Center,D435,1.5
+P1253,Emma,Smith,82,Male,Hypertension,Vaccination,St. Mary's Hospital,D987,4.1
+P1254,Emily,Smith,37,Male,Asthma,Surgery,City Clinic,D875,3.2
+P1255,David,Johnson,25,Female,Asthma,Monitoring,General Hospital,D201,1.6
+P1256,David,Rodriguez,24,Male,Hypertension,Surgery,General Hospital,D574,1.3
+P1257,David,Johnson,47,Male,Heart Disease,Rehabilitation,Central Health Center,D404,3.6
+P1258,Sarah,Williams,49,Male,COVID-19,Surgery,Central Health Center,D470,2.5
+P1259,Michael,Davis,36,Male,Depression,Vaccination,Northside Medical,D182,2.7
+P1260,Emily,Davis,71,Male,Asthma,Medication,General Hospital,D215,2.1
+P1261,Daniel,Williams,74,Male,Arthritis,Rehabilitation,City Clinic,D427,1.2
+P1262,Sophia,Brown,77,Female,Cancer,Medication,Northside Medical,D911,4.3
+P1263,Sophia,Davis,69,Female,Heart Disease,Medication,General Hospital,D583,3.3
+P1264,Sophia,Davis,63,Male,Hypertension,Therapy,Central Health Center,D974,4.1
+P1265,David,Johnson,30,Female,Arthritis,Surgery,City Clinic,D343,3.4
+P1266,Daniel,Davis,35,Male,Heart Disease,Rehabilitation,General Hospital,D449,2.2
+P1267,Emily,Brown,25,Male,Arthritis,Monitoring,Northside Medical,D495,2.8
+P1268,Sophia,Smith,21,Male,Depression,Medication,City Clinic,D518,1.4
+P1269,Emily,Davis,39,Male,Depression,Surgery,Northside Medical,D814,4.5
+P1270,John,Brown,82,Female,Depression,Monitoring,St. Mary's Hospital,D737,2.5
+P1271,Sarah,Garcia,62,Male,Diabetes,Medication,Northside Medical,D826,4.6
+P1272,David,Brown,39,Male,Hypertension,Rehabilitation,City Clinic,D426,4.1
+P1273,David,Garcia,18,Female,Cancer,Medication,St. Mary's Hospital,D228,3.1
+P1274,Emma,Davis,22,Male,Asthma,Therapy,General Hospital,D641,3.1
+P1275,Sarah,Smith,56,Female,Diabetes,Monitoring,St. Mary's Hospital,D699,4.6
+P1276,Sophia,Brown,49,Female,Arthritis,Rehabilitation,City Clinic,D955,3.1
+P1277,Emma,Jones,57,Male,Heart Disease,Monitoring,City Clinic,D274,4.6
+P1278,Emily,Brown,56,Male,Heart Disease,Monitoring,St. Mary's Hospital,D498,3.6
+P1279,Michael,Smith,48,Male,Arthritis,Rehabilitation,General Hospital,D314,3.1
+P1280,Sarah,Jones,84,Male,Asthma,Surgery,Northside Medical,D234,3.3
+P1281,David,Rodriguez,40,Female,Diabetes,Therapy,City Clinic,D224,1.3
+P1282,Daniel,Jones,58,Male,Diabetes,Medication,St. Mary's Hospital,D587,3.6
+P1283,David,Davis,30,Female,COVID-19,Monitoring,Central Health Center,D933,1.5
+P1284,Daniel,Brown,52,Male,Arthritis,Medication,City Clinic,D950,4.2
+P1285,Sophia,Rodriguez,21,Male,Diabetes,Rehabilitation,City Clinic,D334,3.7
+P1286,Emma,Jones,25,Male,Heart Disease,Rehabilitation,Central Health Center,D311,1
+P1287,Michael,Rodriguez,41,Male,Diabetes,Vaccination,Northside Medical,D591,3.9
+P1288,Emily,Garcia,70,Male,Diabetes,Vaccination,Northside Medical,D865,3.8
+P1289,Emma,Brown,44,Male,Arthritis,Medication,City Clinic,D135,3.3
+P1290,Michael,Smith,78,Male,Arthritis,Therapy,Central Health Center,D635,4.6
+P1291,Michael,Rodriguez,40,Male,COVID-19,Therapy,Central Health Center,D752,2.2
+P1292,Sarah,Brown,51,Male,Depression,Rehabilitation,Central Health Center,D426,1.6
+P1293,Daniel,Jones,19,Male,Diabetes,Surgery,St. Mary's Hospital,D457,2.4
+P1294,Emily,Smith,64,Female,Depression,Rehabilitation,General Hospital,D518,1.7
+P1295,Sophia,Smith,41,Male,Heart Disease,Therapy,Northside Medical,D363,2.5
+P1296,Sophia,Jones,41,Male,COVID-19,Surgery,Central Health Center,D516,2.4
+P1297,Sarah,Rodriguez,79,Female,Diabetes,Therapy,City Clinic,D258,2.7
+P1298,John,Davis,32,Male,Asthma,Therapy,St. Mary's Hospital,D233,1.8
+P1299,Emily,Davis,47,Female,Asthma,Surgery,Central Health Center,D967,3.2
+P1300,Sarah,Garcia,83,Male,Hypertension,Therapy,General Hospital,D608,4.5
+P1301,David,Garcia,60,Female,Heart Disease,Medication,St. Mary's Hospital,D864,1.3
+P1302,Emily,Davis,51,Female,Heart Disease,Rehabilitation,Northside Medical,D540,3.6
+P1303,Michael,Garcia,54,Male,Diabetes,Monitoring,Northside Medical,D863,4.3
+P1304,Sophia,Jones,30,Female,Arthritis,Vaccination,Central Health Center,D659,1.9
+P1305,John,Garcia,48,Female,Depression,Vaccination,St. Mary's Hospital,D391,3
+P1306,David,Brown,56,Female,COVID-19,Rehabilitation,General Hospital,D259,3.7
+P1307,Sarah,Williams,61,Male,Hypertension,Therapy,Northside Medical,D368,2.2
+P1308,Daniel,Johnson,58,Male,Diabetes,Monitoring,Central Health Center,D920,3.6
+P1309,David,Smith,62,Male,Diabetes,Rehabilitation,St. Mary's Hospital,D502,4
+P1310,Emma,Davis,67,Female,Arthritis,Vaccination,General Hospital,D835,4.1
+P1311,Sophia,Jones,56,Female,Arthritis,Medication,Northside Medical,D915,3.6
+P1312,Daniel,Davis,46,Female,Depression,Rehabilitation,General Hospital,D876,4.1
+P1313,John,Rodriguez,66,Male,Depression,Vaccination,City Clinic,D314,2.8
+P1314,Sophia,Garcia,75,Male,Cancer,Medication,Northside Medical,D143,1.3
+P1315,Sarah,Rodriguez,70,Female,Heart Disease,Surgery,General Hospital,D436,2.3
+P1316,Michael,Williams,64,Male,Arthritis,Monitoring,Central Health Center,D543,4.1
+P1317,Sarah,Smith,43,Female,Arthritis,Surgery,General Hospital,D671,4
+P1318,Emily,Garcia,71,Male,Hypertension,Monitoring,General Hospital,D185,2.3
+P1319,Emily,Rodriguez,41,Male,COVID-19,Monitoring,Northside Medical,D587,4.4
+P1320,Emma,Johnson,83,Male,Depression,Medication,Northside Medical,D845,4.4
+P1321,Emma,Williams,84,Female,COVID-19,Rehabilitation,City Clinic,D662,4.1
+P1322,Emily,Davis,19,Male,Depression,Therapy,Northside Medical,D869,2
+P1323,Emma,Johnson,53,Male,Arthritis,Surgery,City Clinic,D948,4.7
+P1324,Michael,Williams,68,Male,Diabetes,Rehabilitation,Northside Medical,D451,2.8
+P1325,David,Jones,63,Male,Heart Disease,Rehabilitation,St. Mary's Hospital,D104,2.3
+P1326,Michael,Rodriguez,59,Female,Hypertension,Medication,Northside Medical,D193,4.3
+P1327,Michael,Rodriguez,61,Female,Arthritis,Vaccination,Central Health Center,D361,3.6
+P1328,Michael,Smith,41,Male,Hypertension,Vaccination,St. Mary's Hospital,D289,3
+P1329,Emma,Garcia,18,Female,Depression,Surgery,Northside Medical,D736,1.2
+P1330,Daniel,Garcia,46,Female,Cancer,Rehabilitation,St. Mary's Hospital,D185,4.7
+P1331,Emma,Smith,34,Female,Cancer,Rehabilitation,City Clinic,D861,2.7
+P1332,Sophia,Johnson,31,Female,COVID-19,Rehabilitation,Northside Medical,D721,4.6
+P1333,Sarah,Brown,36,Female,Asthma,Medication,Northside Medical,D428,1.3
+P1334,Michael,Williams,80,Female,Cancer,Rehabilitation,City Clinic,D517,2
+P1335,Emma,Johnson,71,Female,Heart Disease,Medication,City Clinic,D594,3.3
+P1336,Daniel,Jones,75,Male,Depression,Therapy,General Hospital,D282,3.8
+P1337,Emma,Jones,76,Male,Heart Disease,Surgery,St. Mary's Hospital,D639,2.1
+P1338,Sarah,Davis,73,Female,Depression,Rehabilitation,Central Health Center,D184,4.1
+P1339,David,Johnson,55,Female,Hypertension,Vaccination,Central Health Center,D478,1.5
+P1340,John,Rodriguez,50,Male,Diabetes,Rehabilitation,Central Health Center,D237,2.8
+P1341,Michael,Brown,78,Female,Cancer,Monitoring,General Hospital,D316,1.5
+P1342,Emma,Davis,26,Female,Heart Disease,Rehabilitation,Central Health Center,D524,2.1
+P1343,Sarah,Garcia,24,Male,Heart Disease,Monitoring,City Clinic,D751,3.4
+P1344,Daniel,Brown,32,Male,Arthritis,Medication,City Clinic,D721,1.4
+P1345,Sarah,Williams,51,Male,Asthma,Rehabilitation,General Hospital,D545,2
+P1346,David,Garcia,23,Female,Cancer,Surgery,Central Health Center,D378,4.3
+P1347,Michael,Johnson,83,Female,Heart Disease,Rehabilitation,General Hospital,D954,3.1
+P1348,Michael,Davis,27,Female,Asthma,Therapy,St. Mary's Hospital,D304,4
+P1349,Sophia,Smith,65,Male,Heart Disease,Surgery,St. Mary's Hospital,D505,1.1
+P1350,Emma,Rodriguez,67,Female,Arthritis,Vaccination,City Clinic,D240,2.7
+P1351,Emily,Brown,53,Female,COVID-19,Therapy,City Clinic,D682,4.4
+P1352,John,Rodriguez,39,Female,Diabetes,Rehabilitation,City Clinic,D685,1.6
+P1353,Sarah,Garcia,28,Female,Asthma,Therapy,St. Mary's Hospital,D551,4.9
+P1354,Michael,Rodriguez,69,Male,Hypertension,Medication,Central Health Center,D594,2.4
+P1355,John,Smith,85,Male,Asthma,Therapy,General Hospital,D849,4.2
+P1356,Sophia,Williams,65,Male,Asthma,Medication,Central Health Center,D486,2
+P1357,Emily,Johnson,22,Male,Hypertension,Rehabilitation,City Clinic,D131,4.6
+P1358,Daniel,Garcia,35,Male,Diabetes,Vaccination,St. Mary's Hospital,D581,3.9
+P1359,Emma,Smith,82,Female,Heart Disease,Medication,Central Health Center,D551,4.1
+P1360,John,Rodriguez,20,Male,Depression,Medication,St. Mary's Hospital,D514,4.7
+P1361,Emma,Williams,35,Female,Depression,Medication,St. Mary's Hospital,D600,3.2
+P1362,Daniel,Williams,73,Female,Asthma,Monitoring,City Clinic,D311,4.7
+P1363,Emily,Davis,75,Male,COVID-19,Medication,Northside Medical,D574,1.4
+P1364,Daniel,Garcia,81,Male,Asthma,Therapy,General Hospital,D182,1.9
+P1365,Michael,Brown,55,Male,Diabetes,Vaccination,Northside Medical,D326,3.2
+P1366,Daniel,Smith,23,Female,Asthma,Surgery,General Hospital,D469,3.2
+P1367,John,Davis,85,Male,COVID-19,Medication,St. Mary's Hospital,D922,3.5
+P1368,David,Jones,49,Female,Hypertension,Monitoring,General Hospital,D707,4.6
+P1369,Daniel,Brown,34,Male,COVID-19,Vaccination,General Hospital,D826,4
+P1370,Sophia,Rodriguez,67,Female,Hypertension,Surgery,Central Health Center,D111,2
+P1371,Sophia,Jones,32,Male,Heart Disease,Monitoring,Northside Medical,D342,3.4
+P1372,Sarah,Jones,30,Male,Diabetes,Monitoring,Central Health Center,D302,3.8
+P1373,Michael,Davis,57,Female,Asthma,Medication,Northside Medical,D786,3
+P1374,Sophia,Brown,53,Male,Cancer,Monitoring,City Clinic,D340,4.3
+P1375,Daniel,Brown,64,Female,Cancer,Monitoring,City Clinic,D726,3.6
+P1376,Emma,Smith,72,Female,Asthma,Rehabilitation,Northside Medical,D547,4.3
+P1377,Daniel,Brown,18,Male,Heart Disease,Therapy,City Clinic,D941,1.3
+P1378,Emma,Brown,32,Male,Depression,Vaccination,General Hospital,D537,4.6
+P1379,Emily,Johnson,73,Male,Asthma,Monitoring,St. Mary's Hospital,D872,4.6
+P1380,Sarah,Williams,19,Male,Depression,Surgery,General Hospital,D645,3.2
+P1381,John,Davis,56,Male,Arthritis,Rehabilitation,City Clinic,D723,2.9
+P1382,David,Johnson,38,Female,Arthritis,Rehabilitation,Central Health Center,D755,3.4
+P1383,Sarah,Smith,72,Female,Heart Disease,Monitoring,Northside Medical,D899,3.5
+P1384,John,Johnson,82,Male,Hypertension,Surgery,St. Mary's Hospital,D859,2.1
+P1385,Sophia,Smith,69,Female,Arthritis,Surgery,Northside Medical,D601,4.1
+P1386,Emily,Jones,69,Female,Cancer,Therapy,General Hospital,D761,5
+P1387,Sophia,Johnson,54,Male,Depression,Therapy,General Hospital,D446,3.9
+P1388,David,Davis,76,Male,Diabetes,Monitoring,Central Health Center,D311,1
+P1389,Daniel,Williams,29,Male,Diabetes,Surgery,Northside Medical,D820,3.2
+P1390,Sarah,Garcia,56,Female,Heart Disease,Medication,General Hospital,D751,4
+P1391,Emily,Williams,62,Male,Asthma,Therapy,Northside Medical,D152,3.7
+P1392,Sophia,Jones,39,Female,Depression,Monitoring,City Clinic,D326,4.4
+P1393,Daniel,Jones,61,Male,Heart Disease,Therapy,St. Mary's Hospital,D286,3
+P1394,Michael,Williams,79,Male,Arthritis,Vaccination,General Hospital,D138,3.6
+P1395,David,Brown,80,Male,Arthritis,Surgery,City Clinic,D111,4.2
+P1396,David,Williams,58,Male,Cancer,Monitoring,St. Mary's Hospital,D383,4.5
+P1397,David,Brown,48,Female,Arthritis,Rehabilitation,General Hospital,D848,4
+P1398,David,Rodriguez,19,Female,COVID-19,Monitoring,Central Health Center,D485,4.3
+P1399,Michael,Davis,32,Female,Heart Disease,Rehabilitation,Central Health Center,D852,1.7
+P1400,John,Jones,35,Male,Hypertension,Surgery,City Clinic,D918,4.2
+P1401,Daniel,Williams,38,Female,Cancer,Medication,St. Mary's Hospital,D512,1.9
+P1402,David,Smith,39,Female,Hypertension,Monitoring,General Hospital,D709,2.8
+P1403,Sophia,Davis,42,Female,Asthma,Rehabilitation,St. Mary's Hospital,D947,3.6
+P1404,Emily,Davis,55,Male,Depression,Rehabilitation,City Clinic,D594,1.4
+P1405,Emily,Johnson,38,Male,COVID-19,Rehabilitation,City Clinic,D176,1.1
+P1406,Michael,Williams,70,Female,Hypertension,Surgery,General Hospital,D607,3
+P1407,Sophia,Rodriguez,84,Female,COVID-19,Medication,City Clinic,D627,1.1
+P1408,Emily,Jones,71,Male,Diabetes,Medication,General Hospital,D957,3.3
+P1409,Michael,Smith,82,Female,Diabetes,Monitoring,St. Mary's Hospital,D247,1.2
+P1410,John,Davis,67,Male,Diabetes,Therapy,St. Mary's Hospital,D712,3.6
+P1411,David,Williams,18,Male,Depression,Medication,Central Health Center,D687,2.3
+P1412,Sophia,Rodriguez,50,Female,Depression,Vaccination,General Hospital,D383,3.2
+P1413,Emily,Smith,72,Female,Arthritis,Monitoring,General Hospital,D820,4.6
+P1414,Emily,Jones,41,Male,Arthritis,Surgery,General Hospital,D305,4.4
+P1415,David,Brown,43,Male,COVID-19,Surgery,General Hospital,D515,2.7
+P1416,John,Jones,65,Female,Heart Disease,Rehabilitation,Northside Medical,D867,2.8
+P1417,Sophia,Davis,62,Male,Heart Disease,Monitoring,Central Health Center,D172,4.7
+P1418,Sarah,Johnson,45,Male,Arthritis,Vaccination,City Clinic,D979,3.6
+P1419,Sophia,Jones,69,Male,Diabetes,Vaccination,City Clinic,D263,2
+P1420,Sophia,Williams,43,Male,COVID-19,Rehabilitation,City Clinic,D258,4.4
+P1421,Sarah,Jones,58,Male,Cancer,Vaccination,Northside Medical,D610,4
+P1422,Daniel,Jones,40,Female,Heart Disease,Surgery,General Hospital,D846,3.7
+P1423,Sarah,Rodriguez,56,Female,Arthritis,Surgery,General Hospital,D227,1.3
+P1424,John,Williams,32,Male,Asthma,Medication,City Clinic,D326,4.7
+P1425,Michael,Garcia,66,Female,Heart Disease,Monitoring,General Hospital,D382,4.7
+P1426,David,Smith,41,Female,Asthma,Therapy,Central Health Center,D923,3.7
+P1427,Sarah,Rodriguez,27,Female,Asthma,Medication,Central Health Center,D968,2.5
+P1428,Emma,Johnson,65,Male,COVID-19,Surgery,City Clinic,D315,1.2
+P1429,Emily,Davis,80,Male,Cancer,Surgery,Central Health Center,D223,2.2
+P1430,Emma,Brown,40,Female,Arthritis,Monitoring,Central Health Center,D718,4.8
+P1431,Michael,Johnson,25,Female,Cancer,Therapy,St. Mary's Hospital,D143,4.7
+P1432,David,Garcia,55,Female,Heart Disease,Therapy,City Clinic,D142,2.1
+P1433,Michael,Jones,72,Male,Hypertension,Medication,St. Mary's Hospital,D715,2.4
+P1434,Michael,Jones,22,Male,Depression,Rehabilitation,City Clinic,D279,1.7
+P1435,Sarah,Johnson,47,Female,Diabetes,Rehabilitation,City Clinic,D376,4.3
+P1436,John,Davis,60,Male,Cancer,Vaccination,Northside Medical,D982,2.4
+P1437,Emily,Rodriguez,50,Male,Diabetes,Monitoring,City Clinic,D797,1.3
+P1438,Daniel,Williams,38,Male,Arthritis,Surgery,Northside Medical,D141,3.2
+P1439,David,Williams,20,Female,Hypertension,Monitoring,Northside Medical,D814,4.3
+P1440,Daniel,Davis,45,Male,Heart Disease,Therapy,City Clinic,D874,4.9
+P1441,Daniel,Brown,42,Female,Heart Disease,Therapy,Central Health Center,D902,1.1
+P1442,Emily,Brown,85,Male,Cancer,Rehabilitation,Northside Medical,D502,1.1
+P1443,Sarah,Jones,46,Female,Asthma,Vaccination,City Clinic,D838,2.3
+P1444,Emma,Davis,72,Female,Depression,Therapy,Northside Medical,D429,2.9
+P1445,Emily,Johnson,32,Female,Diabetes,Medication,St. Mary's Hospital,D647,1.7
+P1446,Emma,Jones,78,Female,Cancer,Monitoring,City Clinic,D991,2.3
+P1447,Sarah,Johnson,62,Male,Asthma,Surgery,City Clinic,D736,4.1
+P1448,John,Johnson,65,Female,Heart Disease,Rehabilitation,Central Health Center,D840,2.4
+P1449,Daniel,Williams,69,Male,Heart Disease,Therapy,General Hospital,D667,4.7
+P1450,Emily,Garcia,71,Female,COVID-19,Rehabilitation,St. Mary's Hospital,D452,3.4
+P1451,Michael,Rodriguez,59,Male,Depression,Surgery,Northside Medical,D493,3.6
+P1452,Emma,Jones,66,Male,Hypertension,Therapy,General Hospital,D834,1.6
+P1453,Emily,Johnson,45,Male,Hypertension,Surgery,Northside Medical,D745,1.5
+P1454,David,Jones,40,Female,COVID-19,Medication,Northside Medical,D534,4.8
+P1455,Emma,Davis,47,Female,Asthma,Surgery,St. Mary's Hospital,D775,2.3
+P1456,Sarah,Smith,56,Male,Diabetes,Monitoring,City Clinic,D387,1.9
+P1457,Emma,Brown,38,Male,Cancer,Medication,General Hospital,D492,1.1
+P1458,John,Rodriguez,54,Female,Cancer,Therapy,Central Health Center,D984,2
+P1459,David,Rodriguez,84,Female,COVID-19,Therapy,St. Mary's Hospital,D845,4.7
+P1460,Emily,Smith,62,Female,Asthma,Surgery,City Clinic,D815,3.1
+P1461,David,Jones,52,Male,Depression,Vaccination,City Clinic,D457,4.1
+P1462,Sarah,Brown,21,Female,Depression,Vaccination,Central Health Center,D181,5
+P1463,Emily,Williams,65,Female,COVID-19,Medication,City Clinic,D374,3.2
+P1464,Daniel,Brown,38,Male,COVID-19,Medication,General Hospital,D925,1.1
+P1465,Emily,Williams,72,Female,COVID-19,Medication,City Clinic,D573,1.9
+P1466,Sophia,Williams,80,Female,Heart Disease,Monitoring,Northside Medical,D818,4.4
+P1467,Sophia,Smith,20,Female,COVID-19,Vaccination,St. Mary's Hospital,D556,2.6
+P1468,David,Smith,37,Female,COVID-19,Therapy,General Hospital,D695,1.6
+P1469,David,Williams,66,Female,Hypertension,Therapy,St. Mary's Hospital,D890,2.6
+P1470,John,Johnson,41,Male,Heart Disease,Vaccination,City Clinic,D282,4.5
+P1471,Emily,Garcia,40,Male,Hypertension,Monitoring,Northside Medical,D726,2
+P1472,Michael,Johnson,79,Female,Asthma,Surgery,City Clinic,D220,4
+P1473,Sarah,Williams,54,Male,Arthritis,Medication,General Hospital,D864,2.4
+P1474,David,Williams,58,Female,Depression,Monitoring,Northside Medical,D538,3.5
+P1475,Emily,Davis,23,Male,Arthritis,Therapy,Northside Medical,D891,1.8
+P1476,Emma,Davis,76,Male,Depression,Monitoring,St. Mary's Hospital,D116,1.1
+P1477,Michael,Jones,30,Male,Depression,Monitoring,Northside Medical,D221,1.8
+P1478,Emma,Brown,78,Male,Diabetes,Monitoring,City Clinic,D996,2
+P1479,John,Rodriguez,27,Male,Asthma,Medication,Northside Medical,D463,5
+P1480,Sarah,Johnson,34,Male,Hypertension,Monitoring,St. Mary's Hospital,D223,4.9
+P1481,Michael,Davis,25,Male,Asthma,Surgery,St. Mary's Hospital,D218,3.7
+P1482,Emily,Rodriguez,53,Female,COVID-19,Surgery,General Hospital,D612,1.4
+P1483,Daniel,Davis,37,Male,COVID-19,Vaccination,General Hospital,D375,3.8
+P1484,Emily,Rodriguez,85,Female,Asthma,Medication,City Clinic,D662,2.8
+P1485,Sarah,Garcia,76,Male,Heart Disease,Surgery,Central Health Center,D117,4.6
+P1486,Daniel,Williams,53,Female,Asthma,Medication,Central Health Center,D259,2.8
+P1487,Sophia,Garcia,62,Female,Asthma,Medication,St. Mary's Hospital,D977,2.5
+P1488,Michael,Smith,58,Female,Depression,Rehabilitation,City Clinic,D465,2.1
+P1489,Michael,Rodriguez,78,Male,Depression,Therapy,City Clinic,D872,4.5
+P1490,David,Jones,24,Male,Diabetes,Rehabilitation,General Hospital,D552,3.1
+P1491,Daniel,Jones,57,Male,Cancer,Rehabilitation,Northside Medical,D437,2.3
+P1492,Emma,Brown,66,Female,Hypertension,Rehabilitation,City Clinic,D494,4.7
+P1493,Emily,Johnson,68,Male,COVID-19,Vaccination,General Hospital,D987,2.6
+P1494,Sophia,Smith,43,Female,Hypertension,Therapy,St. Mary's Hospital,D496,3.4
+P1495,Daniel,Jones,35,Female,Asthma,Therapy,Northside Medical,D231,4.8
+P1496,David,Smith,35,Female,Cancer,Monitoring,Central Health Center,D214,3.9
+P1497,Sophia,Brown,41,Female,COVID-19,Medication,General Hospital,D851,2.9
+P1498,Emma,Davis,74,Female,Asthma,Therapy,City Clinic,D799,2.9
+P1499,Sarah,Jones,32,Male,Heart Disease,Therapy,City Clinic,D407,3.1
