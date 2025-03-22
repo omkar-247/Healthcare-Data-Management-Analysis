@@ -105,6 +105,7 @@ The **Power BI dashboard** was created to visualize key insights from the health
   - Bar Charts: For diagnosis distribution and treatment success rates.
   - Pie Charts: For gender and age group distribution.
   - Tables: For displaying raw data with filters applied.
+  - Line Charts: For treatment trends over time.
   - Slicers: For interactive filtering.
 
 - **DAX Formulas:**
